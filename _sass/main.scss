@@ -1,1 +1,119 @@
 
+v@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+/*
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+*/
+
+@import "../node_modules/bulma/bulma";
+#first_section{
+    background-image: url("main-background.png");
+    background-size: cover;
+    color:#f9f9f9;
+    font-family: IBMPlexSans;
+    height:50vw;
+    ul{
+        display:inline-block;
+        li{
+            display:inline-block;
+            padding-left: 4vw;
+            padding-right: 4vw;
+            .top{
+                    font-size: 15px;
+            }
+            .bottom{
+                    font-size: 16px;
+            }
+            .logo{
+                width: 140px;
+                height: 134px;
+                margin-left: 50%;
+                margin-right: 50%;
+                object-fit: contain;
+            }
+        }
+    }   
+    .center{
+        align-items: center;
+        .illustration{
+            position:absolute;
+            width: 498px;
+            height: 498px;
+            object-fit: contain;
+            margin-left: 32%;
+            
+        }
+        h1{
+            position:absolute;
+            width: 714px;
+            height: 88px;
+            font-family: Simplicity;
+            font-size: 64px;
+            text-align: center;
+            margin-left: 25%;
+            margin-top: 14%;
+            
+        }
+        .menuButton{
+            position: absolute;
+            width: 184px;
+            height: 52px;
+            background-color: #8cba40;
+            margin-left: 43%;
+            margin-top: 35%;
+            color:#f9f9f9;
+            border-color: #8cba40;;
+        }
+        .boxButton{
+            width: 114px;
+            height: 114px;
+            background-color: #8cba40;
+            font-size: 50px;
+            margin-left: 10%;
+            margin-top:35%;
+        }
+    }
+    
+}
+#second_section{
+    background-color:#fbf7f1;
+    h2{
+        padding-top:5vw;
+        font-family: Simplicity;
+        font-size: 56px;
+        padding-left:3vw;
+    }
+    .text{
+        width: 50vw;
+        padding-left:3vw;
+        font-size: 15px;
+        }
+}
+#third_section{
+
+}
+#fourth_secton{
+
+}
